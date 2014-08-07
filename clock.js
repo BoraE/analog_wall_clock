@@ -4,7 +4,7 @@ modules.Clock = (function() {
     "use strict";
 
     function Clock() {
-         var self = this;
+        var self = this;
         window.onload = function () {
             self.paintClockFace();
             self.paintClockHands();
